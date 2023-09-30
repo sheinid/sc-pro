@@ -38,7 +38,14 @@ const Header = () => {
                     <div className='cta-container'>
                         <div>
                             <div className='cta'>
-                                <button>Get Started</button>
+                                <button
+                                    onClick={() =>
+                                        (window.location.href =
+                                            "https://www.youtube.com/watch?v=L92QW_t5sg0")
+                                    }
+                                >
+                                    Get Started
+                                </button>
                                 <p>Join 2145 other students</p>
                             </div>
                         </div>
