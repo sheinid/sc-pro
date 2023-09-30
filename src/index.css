@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Karla:wght@400;500;600;700&family=Montserrat:wght@900&display=swap");
+
+:root {
+    font-family: "Karla", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    background-color: #fff;
+    color: hsl(250, 18%, 19%);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --u_gt: 70px;
+    --c: hsla(54, 100%, 92%, 100%);
+    --coral: hsl(25, 54%, 88%);
+    --floss: hsl(320, 53%, 90%);
+    --lemon: hsl(54, 100%, 92%);
+    --lemon-fizz: hsl(54.4, 100%, 91.6%);
+    --lilac: hsl(252, 100%, 86%);
+    --mint: hsl(138, 24%, 89%);
+    --plumb: hsl(250.9, 16.4%, 39.4%);
+    --red: hsl(4, 100%, 68%);
+    --sage: hsl(138.5, 23.6%, 89.2%);
+    --tiger: hsl(34, 96%, 63%);
+    --terracotta: hsl(25, 75%, 84.3%);
+    --light-coral: hsl(28, 52%, 95%);
+    --light-lilac: hsl(253, 100%, 95%);
+    --light-mint: hsl(140, 27%, 96%);
+    --light-tiger: hsl(34, 95%, 85%);
+    --baby1: hsla(221, 100%, 96%, 100%);
+    --baby2: hsla(220.67, 100%, 94.33%, 1);
+    --baby3: hsla(220.33, 100%, 92.67%, 1);
+    --baby4: hsla(220, 100%, 91%, 100%);
+    --baby5: hsla(220, 92.86%, 79.39%, 1);
+    --baby6: hsla(220, 85.71%, 67.78%, 1);
+    --baby7: hsla(220, 78.57%, 56.16%, 1);
+    --baby8: hsla(220, 71.43%, 44.55%, 1);
+    --baby9: hsla(220, 64.29%, 32.94%, 1);
+    --coral1: hsla(28, 52%, 95%, 100%);
+    --coral2: hsla(26.5, 53%, 91.5%, 1);
+    --coral3: hsla(25, 54%, 88%, 100%);
+    --coral4: hsla(25, 55.71%, 78.82%, 1);
+    --coral5: hsla(25, 57.43%, 69.65%, 1);
+    --coral6: hsla(25, 59.14%, 60.47%, 1);
+    --coral7: hsla(25, 60.86%, 51.29%, 1);
+    --coral8: hsla(25, 62.57%, 42.12%, 1);
+    --coral9: hsla(25, 64.29%, 32.94%, 1);
+    --gray1: hsla(210, 40%, 96.08%, 100%);
+    --gray2: hsla(214.29, 31.82%, 91.37%, 100%);
+    --gray3: hsla(212.73, 26.83%, 83.92%, 100%);
+    --gray4: hsla(215, 20.22%, 65.1%, 100%);
+    --gray5: hsla(215.38, 16.32%, 46.86%, 100%);
+    --gray6: hsla(215.29, 19.32%, 34.51%, 100%);
+    --gray7: hsla(215.29, 25%, 26.67%, 100%);
+    --gray8: hsla(217.24, 32.58%, 17.45%, 100%);
+    --gray9: hsla(222.22, 47.37%, 11.18%, 100%);
+    --lemon1: hsla(54, 94.59%, 92.75%, 1);
+    --lemon2: hsla(54, 100%, 92%, 100%);
+    --lemon3: hsla(54, 94.9%, 83.56%, 1);
+    --lemon4: hsla(54, 89.8%, 75.13%, 1);
+    --lemon5: hsla(54, 84.69%, 66.69%, 1);
+    --lemon6: hsla(54, 79.59%, 58.25%, 1);
+    --lemon7: hsla(54, 74.49%, 49.82%, 1);
+    --lemon8: hsla(54, 69.39%, 41.38%, 1);
+    --lemon9: hsla(54, 64.29%, 32.94%, 1);
+    --lilac1: hsla(253, 94.59%, 92.75%, 1);
+    --lilac2: hsla(253, 100%, 95%, 100%);
+    --lilac3: hsla(252.5, 100%, 90.5%, 1);
+    --lilac4: hsla(252, 100%, 86%, 100%);
+    --lilac5: hsla(252, 92.86%, 75.39%, 1);
+    --lilac6: hsla(252, 85.71%, 64.78%, 1);
+    --lilac7: hsla(252, 78.57%, 54.16%, 1);
+    --lilac8: hsla(252, 71.43%, 43.55%, 1);
+    --lilac9: hsla(252, 64.29%, 32.94%, 1);
+    --mint1: hsla(140, 27%, 96%, 100%);
+    --mint2: hsla(139, 25.5%, 92.5%, 1);
+    --mint3: hsla(138, 24%, 89%, 100%);
+    --mint4: hsla(138, 30.71%, 79.66%, 1);
+    --mint5: hsla(138, 37.43%, 70.31%, 1);
+    --mint6: hsla(138, 44.14%, 60.97%, 1);
+    --mint7: hsla(138, 50.86%, 51.63%, 1);
+    --mint8: hsla(138, 57.57%, 42.28%, 1);
+    --mint9: hsla(138, 64.29%, 32.94%, 1);
+    --tiger1: hsla(34, 94.59%, 92.75%, 1);
+    --tiger2: hsla(34, 95%, 85%, 100%);
+    --tiger3: hsla(34, 95.25%, 79.5%, 1);
+    --tiger4: hsla(34, 95.5%, 74%, 1);
+    --tiger5: hsla(34, 95.75%, 68.5%, 1);
+    --tiger6: hsla(34, 96%, 63%, 100%);
+    --tiger7: hsla(34, 85.43%, 52.98%, 1);
+    --tiger8: hsla(34, 74.86%, 42.96%, 1);
+    --tiger9: hsla(34, 64.29%, 32.94%, 1);
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+button {
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: #fff;
+    background-color: hsl(248, 100%, 60.4%);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.container {
+    margin-left: calc(var(--u_gt, 1gt) * 1);
+    max-width: 1024px;
+    width: auto;
+}
+
+.trollface {
+    height: 3000px;
+    max-width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}
