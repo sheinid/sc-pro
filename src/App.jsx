@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Header from "./components/header";
+import Header from "./components/Header";
 
 import Trollface from "/public/Trollface_non-free.png";
 
